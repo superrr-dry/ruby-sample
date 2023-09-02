@@ -1,0 +1,17 @@
+<h1>User</h1>
+<div>
+  <p>
+    <strong>Name:</strong>
+    <%= @user.name %>
+  </p>
+</div>
+<div>
+  <strong>Tests:</strong>
+  <% @user.tests.each do |test| %>
+    <div style="display: flex;">
+      <div style="width: 160px;"><%= test.content %></div>
+      <div><%= button_to "edit", edit_test_path(test), method: :get %></div>
+    </div>
+  <% end %>
+</div>
+<%= link_to "Back to users", users_path %>

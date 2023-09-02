@@ -1,0 +1,5 @@
+<h1>Editing test</h1>
+<%= render 'shared/flash_error_messages' %>
+<%= render "form", test: @test %>
+<div><%= link_to "Back to tests", tests_path %></div>
+<div><%= link_to "Back to user", user_path(@test.user) %></div>

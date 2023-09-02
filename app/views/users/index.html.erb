@@ -1,0 +1,10 @@
+<h1>Users</h1>
+<div>
+  <% @users.each do |user| %>
+    <div style="display: flex;">
+      <div style="width: 160px;">User: <%= user.name %></div>
+      <div><%= button_to "show", user_path(user), method: :get %></div>
+    </div>
+  <% end %>
+</div>
+<%= link_to "New user", new_user_path %>
