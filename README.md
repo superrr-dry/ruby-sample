@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 参考URL
+* アプリ立ち上げ(コピペだとapiモードになるため注意)
+　https://zenn.dev/toono_f/scraps/e7346c6e90c35b
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* todoアプリ作成
+  https://elekibear.com/20221110_01#google_vignette
