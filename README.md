@@ -174,6 +174,5 @@ railsにdelegateメソッドがある<br>
 https://railsguides.jp/active_support_core_extensions.html#delegate
 
 #### Observer
-Rails 6まではActiveRecord Observer<br>
-Rails 7以降はAction Cable<br>
+Action Cableを使うのがいいっぽい<br>
 https://railsguides.jp/action_cable_overview.html
