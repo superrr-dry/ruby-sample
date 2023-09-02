@@ -29,7 +29,7 @@
 railsのMVCがこれを支持してる
 
 #### 開放閉鎖原則
-Decorator パターンや Concernsを使うのがいいかも
+DecoratorやConcernsを使うのがいいかも
 ```ruby
 # app/decorators/user_decorator.rb
 class UserDecorator
@@ -44,7 +44,7 @@ end
 ```
 
 #### リスコフの置換原則
-親クラスをオーバーライドすればいける
+単純に親クラスをオーバーライドすればいける
 ```ruby
 class Animal
   def make_sound
