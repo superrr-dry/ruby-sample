@@ -101,8 +101,8 @@ class ReportGenerator
 end
 ```
 
-もしくは、NotImplementedErrorを使うのもあり。
-下記参考URL
+もしくは、NotImplementedErrorを使うのもあり。<br>
+下記参考URL<br>
 https://qiita.com/developer-kikikaikai/items/b1e2bd1c2bbc223de534
 
 #### 依存性逆転原則
@@ -148,13 +148,14 @@ processor.process(100)
 ```
 
 ### GoF
-有名どころだけピックアップ
+有名どころだけピックアップ<br>
 気分が乗ったら他も調べる
+
 #### Singleton
-rubyにSingletonのモジュールがある
+rubyにSingletonのモジュールがある<br>
 ・module
 https://docs.ruby-lang.org/ja/latest/class/Singleton.html
-・下記使い方
+<br>・下記使い方<br>
 https://qiita.com/YumaInaura/items/b26b4fe589405948da4b
 
 
@@ -169,10 +170,10 @@ end
 ```
 
 #### Decorator
-railsにdelegateメソッドがある
+railsにdelegateメソッドがある<br>
 https://railsguides.jp/active_support_core_extensions.html#delegate
 
 #### Observer
-Rails 6まではActiveRecord Observer
-Rails 7以降はAction Cable
+Rails 6まではActiveRecord Observer<br>
+Rails 7以降はAction Cable<br>
 https://railsguides.jp/action_cable_overview.html
