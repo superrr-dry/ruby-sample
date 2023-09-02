@@ -84,21 +84,6 @@ class Human
   include Walkable
   include Swimmable
 end
-1. 依存性逆転原則 (Dependency Inversion Principle)
-Railsでは依存性注入を簡単に行えます。これにより、テストも容易になります。
-
-ruby
-Copy code
-class ReportGenerator
-  def initialize(data_source)
-    @data_source = data_source
-  end
-
-  def generate_report
-    data = @data_source.fetch_data
-    # レポート生成
-  end
-end
 ```
 
 もしくは、NotImplementedErrorを使うのもあり。<br>
