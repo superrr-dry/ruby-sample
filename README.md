@@ -155,7 +155,7 @@ processor.process(100)
 rubyにSingletonのモジュールがある<br>
 ・module<br>
 https://docs.ruby-lang.org/ja/latest/class/Singleton.html
-<br>・下記使い方<br>
+<br>・使い方<br>
 https://qiita.com/YumaInaura/items/b26b4fe589405948da4b
 
 
